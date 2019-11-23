@@ -1,0 +1,32 @@
+{
+	"select": {
+		"column": "None",
+		"type": "[]"
+	},
+	"from": {
+		"table": "SurveyReport"
+	},
+	"join": {
+	},
+	"where": {
+		"conditions": [
+			{ "column": "Country",
+			  "type": "None",
+			  "operator": "=",
+			  "value": "'united kingdom'"
+			},
+			{
+			  "operator": "AND"
+			},
+			{ "column": "OpenSource",
+			  "type": "None",
+			  "operator": "=",
+			  "value": "'yes'"
+			}
+		]
+	},
+	"group_by": {
+	},
+	"select": {
+	},
+}
